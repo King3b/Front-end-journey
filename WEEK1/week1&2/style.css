@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+}
+nav {
+  background-color: #333333;
+  overflow: hidden;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: #111111;
+}
+.card {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card p {
+  color: #555555;
+}
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.card a {
+  color: #1e90ff;
+  text-decoration: none;
+  padding: 40px;
+}
+.card a:hover {
+  text-decoration: underline;
+}
+.card ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+.introduction,
+.projects,
+.skills,
+.courses,
+form {
+  background-color: #2e2e2e;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.introduction p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.projects h2 {
+  color: #ffffff;
+  text-align: center;
+}
+.projects ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projects ul li {
+  margin: 10px;
+  flex: 1 1 calc(33% - 20px);
+  box-sizing: border-box;
+}
+.skills h2,
+.courses h2 {
+  color: #ffffff;
+  text-align: center;
+}
+.skills ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+.skills ul li {
+  display: inline-block;
+  margin: 10px 15px;
+}
+.courses table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.courses table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.courses th,
+.courses td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+  color: #ffffff;
+}
+.courses th {
+  background-color: #444444;
+}
+.courses tr:hover {
+  background-color: #555555;
+}
+
+form h2 {
+  color: #ffffff;
+  text-align: center;
+}
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #ffffff;
+}
+form {
+  text-align: center;
+}
+form input,
+form textarea {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+form form button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #0d6efd;
+}
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: static;
+  width: 100%;
+  bottom: 0;
+}

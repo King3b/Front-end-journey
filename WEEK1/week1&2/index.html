@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#introduction">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="card">
+      <div class="card">
+        <div class="img-container">
+          <img src="profile.jpg" alt="Profile Picture" />
+        </div>
+        <div class="info">
+          <h2>Blessings Marera</h2>
+          <p>Web Developer</p>
+          <p>
+            Passionate about creating interactive applications and experiences
+            on the web.
+          </p>
+          <div class="skills">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+            </ul>
+          </div>
+          <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="introduction">
+        <h2>Welcome to My Portfolio</h2>
+        <p>
+          Hello! I'm Blessings Marera, a web developer specializing in creating
+          beautiful and functional web applications. Explore my skills and
+          projects below.
+        </p>
+      </section>
+
+      <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <h3>Project One</h3>
+            <p>
+              A web application that allows users to track their tasks and
+              manage their time effectively.
+            </p>
+          </li>
+          <li>
+            <h3>Project Two</h3>
+            <p>
+              An e-commerce website built with React and Node.js, featuring a
+              user-friendly interface and secure payment options.
+            </p>
+          </li>
+          <li>
+            <h3>Project Three</h3>
+            <p>
+              A personal blog platform where users can share their thoughts and
+              connect with others.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5, CSS3, JavaScript (ES6+)</li>
+          <li>React, Redux, Node.js, Express</li>
+          <li>RESTful APIs, GraphQL</li>
+          <li>Git, GitHub, Agile Methodologies</li>
+          <li>Responsive Design, Cross-Browser Compatibility</li>
+        </ul>
+      </section>
+
+      <section class="courses">
+        <h2>Completed Courses</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Course Name</th>
+              <th>Institution</th>
+              <th>Year Completed</th>
+              <th>Lecturer</th>
+              <th>credits</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Web Development Bootcamp</td>
+              <td>Udemy</td>
+              <td>2022</td>
+              <td>John Doe</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>JavaScript Algorithms and Data Structures</td>
+              <td>freeCodeCamp</td>
+              <td>2023</td>
+              <td>Jane Smith</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>React - The Complete Guide</td>
+              <td>Udemy</td>
+              <td>2023</td>
+              <td>Alex Johnson</td>
+              <td>12</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="contact">
+        <h2>Contact Me</h2>
+        <form action="">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+
+          <p>how did you find me?</p>
+          <select name="find" id="find">
+            <option value="friend">A Friend</option>
+            <option value="search">Search Engine</option>
+            <option value="ad">Advertisement</option>
+            <option value="other">Other</option>
+          </select>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <p>u agree all informatiuon sent is true</p>
+          <input type="checkbox" id="agree" name="agree" required />
+          <label for="agree">I Agree</label>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Blessings Marera. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
